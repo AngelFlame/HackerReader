@@ -16,6 +16,6 @@
   "devDependencies": {
     "jquery": "2.0.0",
     "normalize-css": "~2.1.2",
-    "angular": "angular/bower-angular#1.2.0rc1"
+    "angular": "angular/bower-angular#~1.0.8"
   }
 }
