@@ -1,0 +1,119 @@
+@import "compass/css3";
+@import "compass/utilities/general/clearfix";
+
+.page {
+    height: 640px;
+    background: white;
+    position: relative;
+    @include clearfix();
+
+    .left {
+        float: left;
+    }
+    .right {
+        float: right;
+    }
+
+    .image-wrapper {
+        height: 100%;
+        text-align: center;
+
+        img {
+            width: 320px;
+            margin: 36px 0;
+            border: 1px solid #ccc;
+            @include box-shadow(5px 5px 10px #ccc);
+        }
+    }
+    .introduction {
+        text-align: center;
+        height: 100%;
+    }
+}
+
+.page-0,
+.page-1,
+.page-4 {
+    border-bottom: 1px solid #fc6621;
+}
+
+.page-3 {
+    text-align: center;
+    h2 {
+        color: #eee;
+    }
+}
+
+.page-0,
+.page-5 {
+    height: 320px;
+
+    // XXX hack, change later
+    background: white !important;
+}
+
+.page-1,
+.page-2,
+.page-4 {
+    .image-wrapper {
+        width: 40%;
+    }
+    .introduction {
+        width: 60%;
+    }
+}
+
+.page-3 {
+    background: #31a2e0;
+}
+
+h1,
+h2 {
+    font-family: 'Averia Sans Libre', cursive;
+    margin: 0;
+    i.fa {
+        margin: 0 20px;
+    }
+}
+
+h1 {
+    font-size: 400%;
+}
+
+h2 {
+    font-size: 150%;
+}
+
+.app-store {
+    @include opacity(0.6);
+    &:hover {
+        @include transition(opacity 0.3s linear);
+        @include opacity(1);
+    }
+}
+
+.vertical-align {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    @include translate(-50%, -50%);
+}
+
+.logo {
+    @include border-radius(25px);
+}
+
+.digital-ocean-logo {
+    top: 35%;
+    @include opacity(0.5);
+}
+
+.fa-info-circle {
+    color: deepskyblue;
+}
+.fa-heart {
+    color: lightcoral;
+}
+.fa-smile-o {
+    color: lightsalmon;
+}

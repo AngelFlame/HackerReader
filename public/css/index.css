@@ -1,0 +1,131 @@
+.page {
+  height: 640px;
+  background: white;
+  position: relative;
+  overflow: hidden;
+  *zoom: 1;
+}
+.page .left {
+  float: left;
+}
+.page .right {
+  float: right;
+}
+.page .image-wrapper {
+  height: 100%;
+  text-align: center;
+}
+.page .image-wrapper img {
+  width: 320px;
+  margin: 36px 0;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 5px 5px 10px #cccccc;
+  -moz-box-shadow: 5px 5px 10px #cccccc;
+  box-shadow: 5px 5px 10px #cccccc;
+}
+.page .introduction {
+  text-align: center;
+  height: 100%;
+}
+
+.page-0,
+.page-1,
+.page-4 {
+  border-bottom: 1px solid #fc6621;
+}
+
+.page-3 {
+  text-align: center;
+}
+.page-3 h2 {
+  color: #eee;
+}
+
+.page-0,
+.page-5 {
+  height: 320px;
+  background: white !important;
+}
+
+.page-1 .image-wrapper,
+.page-2 .image-wrapper,
+.page-4 .image-wrapper {
+  width: 40%;
+}
+.page-1 .introduction,
+.page-2 .introduction,
+.page-4 .introduction {
+  width: 60%;
+}
+
+.page-3 {
+  background: #31a2e0;
+}
+
+h1,
+h2 {
+  font-family: 'Averia Sans Libre', cursive;
+  margin: 0;
+}
+h1 i.fa,
+h2 i.fa {
+  margin: 0 20px;
+}
+
+h1 {
+  font-size: 400%;
+}
+
+h2 {
+  font-size: 150%;
+}
+
+.app-store {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6;
+}
+.app-store:hover {
+  -webkit-transition: opacity 0.3s linear;
+  -moz-transition: opacity 0.3s linear;
+  -o-transition: opacity 0.3s linear;
+  transition: opacity 0.3s linear;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+.vertical-align {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.logo {
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  border-radius: 25px;
+}
+
+.digital-ocean-logo {
+  top: 35%;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  opacity: 0.5;
+}
+
+.fa-info-circle {
+  color: deepskyblue;
+}
+
+.fa-heart {
+  color: lightcoral;
+}
+
+.fa-smile-o {
+  color: lightsalmon;
+}
