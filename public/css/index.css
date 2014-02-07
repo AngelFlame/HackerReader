@@ -1,3 +1,44 @@
+.vertical-align {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+h1,
+h2 {
+  font-family: 'Averia Sans Libre', cursive;
+  margin: 0;
+}
+h1 i.fa,
+h2 i.fa {
+  margin: 0 20px;
+}
+
+h1 {
+  font-size: 400%;
+}
+
+h2 {
+  font-size: 150%;
+}
+
+.fa-info-circle {
+  color: deepskyblue;
+}
+
+.fa-heart {
+  color: lightcoral;
+}
+
+.fa-smile-o {
+  color: lightsalmon;
+}
+
 .page {
   height: 640px;
   background: white;
@@ -62,24 +103,6 @@
   background: #31a2e0;
 }
 
-h1,
-h2 {
-  font-family: 'Averia Sans Libre', cursive;
-  margin: 0;
-}
-h1 i.fa,
-h2 i.fa {
-  margin: 0 20px;
-}
-
-h1 {
-  font-size: 400%;
-}
-
-h2 {
-  font-size: 150%;
-}
-
 .app-store {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
   opacity: 0.6;
@@ -91,17 +114,6 @@ h2 {
   transition: opacity 0.3s linear;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
-}
-
-.vertical-align {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
 }
 
 .logo {
@@ -116,16 +128,4 @@ h2 {
   top: 35%;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
   opacity: 0.5;
-}
-
-.fa-info-circle {
-  color: deepskyblue;
-}
-
-.fa-heart {
-  color: lightcoral;
-}
-
-.fa-smile-o {
-  color: lightsalmon;
 }

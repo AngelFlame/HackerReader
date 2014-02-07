@@ -1,5 +1,9 @@
 @import "compass/css3";
 @import "compass/utilities/general/clearfix";
+@import "global";
+@import "mixins";
+@import "reset_base";
+@import "fa";
 
 .page {
     height: 640px;
@@ -67,36 +71,12 @@
     background: #31a2e0;
 }
 
-h1,
-h2 {
-    font-family: 'Averia Sans Libre', cursive;
-    margin: 0;
-    i.fa {
-        margin: 0 20px;
-    }
-}
-
-h1 {
-    font-size: 400%;
-}
-
-h2 {
-    font-size: 150%;
-}
-
 .app-store {
     @include opacity(0.6);
     &:hover {
         @include transition(opacity 0.3s linear);
         @include opacity(1);
     }
-}
-
-.vertical-align {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    @include translate(-50%, -50%);
 }
 
 .logo {
@@ -106,14 +86,4 @@ h2 {
 .digital-ocean-logo {
     top: 35%;
     @include opacity(0.5);
-}
-
-.fa-info-circle {
-    color: deepskyblue;
-}
-.fa-heart {
-    color: lightcoral;
-}
-.fa-smile-o {
-    color: lightsalmon;
 }
