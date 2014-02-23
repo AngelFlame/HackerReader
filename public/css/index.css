@@ -122,6 +122,9 @@ h2 {
   -ms-border-radius: 25px;
   -o-border-radius: 25px;
   border-radius: 25px;
+  -webkit-box-shadow: 10px 10px 20px #cccccc;
+  -moz-box-shadow: 10px 10px 20px #cccccc;
+  box-shadow: 10px 10px 20px #cccccc;
 }
 
 .digital-ocean-logo {

@@ -81,6 +81,7 @@
 
 .logo {
     @include border-radius(25px);
+    @include box-shadow(10px 10px 20px #ccc);
 }
 
 .digital-ocean-logo {
